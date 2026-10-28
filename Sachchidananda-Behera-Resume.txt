@@ -1,0 +1,109 @@
+SACHCHIDANANDA BEHERA
+AI engineering | Business analytics | Product interests
+Bhadrak, Odisha, India
+sachchidananda13@gmail.com
+https://www.linkedin.com/in/sachchidananda-behera
+
+PROFILE
+Interested in AI-powered products connecting engineering and business, urban informatics, and writing.
+
+EDUCATION
+NIT Rourkela, B.Tech-M.Tech Dual Degree, Mining Engineering, 2021-2026
+Graduated June 2026. B.Tech 7.68/10 (First Class); M.Tech 7.88/10; overall 7.75/10.
+
+EXPERIENCE
+
+AI Engineer Trainee | Rakuten India | Oct 2026 – present
+Bengaluru · AI Consultancy
+Back-end engineering for AI agents, chatbots and voice systems. Python services, RAG, agent state, embeddings, tracing and evaluation.
+Trainee period scheduled through Mar 2027.
+
+Project Intern · Glacial Lake Monitoring | NESAC | Jan – Mar 2026
+Meghalaya · Department of Space
+Satellite displacement time series, glacial lake mapping and HEC-RAS flood modelling for hazard assessment.
+
+
+Research · Sustainable Utilisation of Red Mud | NIT Rourkela | Jul – Dec 2025
+Rourkela
+Mechanical and leaching tests to study long-term stability and contaminant release in red mud.
+
+
+Data Analyst Intern | KPMG | May – Jul 2025
+Bengaluru
+SQL-driven transaction analysis, Excel reconciliation and dashboards on customers, sales and portfolio trends.
+
+
+Research · Drone Survey System | NIT Rourkela | Jul 2024 – Apr 2025
+Odisha · Coal India mine fieldwork
+Flight planning, photogrammetric processing, GIS and 3D mine models for an operating mine.
+
+
+Market Research Intern | Toyota Kirloskar Motor | Jun – Jul 2024
+Bengaluru
+Regional sales and customer-segment analysis to identify expansion opportunities and acquisition priorities.
+
+
+Summer Intern · Household Field Survey | NHRC | May – Jun 2024
+New Delhi / Bhubaneswar
+Interviews with 65 households, observations, Excel coding and a policy report on sanitation and infrastructure.
+
+
+PROJECT CONTRIBUTIONS
+
+AI agents, chatbots & voice systems
+Rakuten India · AI Consultancy | Oct 2026 – present
+- Write Python and FastAPI services for LLM workflows and model routing.
+- Use LangChain and LangGraph for retrieval-augmented generation and agent state.
+- Store application records and embeddings in PostgreSQL with pgvector.
+- Trace runs, inspect response latency and evaluate outputs with Langfuse and LangSmith.
+Outcome and scope: Current work includes a hospital chatbot and an insurance voice agent. This is ongoing trainee work; production performance figures and client materials are not published here.
+
+Glacial lake monitoring & flood modelling
+NESAC · Department of Space | Jan – Mar 2026
+- Built Sentinel-1 InSAR displacement time series for 29 glacial lakes in Tawang and Dibang Valley using LiCSAR products and LiCSBAS small-baseline inversion.
+- Mapped 1,268 lakes in the Khangri and Mago basins using photogrammetry and scripted processing.
+- Measured an 11.13% increase in total lake area and contributed to volume-change estimates.
+- Set up HEC-RAS unsteady-flow models to estimate flood arrival at settlements 10–16 km downstream.
+Outcome and scope: Connected displacement measurements, lake-area changes and flood modelling as inputs to hazard assessment. The 29-lake displacement study and the 1,268-lake mapping study are separate scopes.
+
+Drone-based mine management & survey
+NIT Rourkela · Coal India mine | Jul 2024 – Apr 2025
+- Developed flight plans and overlapping image-capture workflows at an operating Coal India mine in Odisha.
+- Processed imagery in Agisoft and Surveyaan using structure-from-motion photogrammetry.
+- Produced georeferenced point clouds, elevation models, orthomosaics and 3D mine models.
+- Used GIS layers to track mining progress, assess post-mining land and inform equipment deployment.
+Outcome and scope: Reduced the time for selected surveys from 1–2 weeks to 30–60 minutes, allowing more frequent surveying. This comparison refers to selected survey work, not every mine-survey task.
+
+Sustainable utilisation of red mud
+NIT Rourkela | Jul – Dec 2025
+- Tested samples with creep, stress-relaxation and Dynamic Mechanical Analysis.
+- Ran Leaching Environmental Assessment Framework tests to measure contaminant release over time.
+- Considered mechanical and environmental results together when assessing disposal-site stability.
+Outcome and scope: Investigated how red mud behaves under sustained loading and how it releases contaminants over time. No commercial deployment or quantified remediation outcome is claimed.
+
+Customer, sales & market analytics
+KPMG · Toyota Kirloskar Motor | 2024 – 2025
+- At KPMG, used MySQL joins, filters and aggregations, then cleaned and reconciled transaction data in Excel.
+- Compared FY2024 and FY2025 product average order values; identified a 3% decline for a key product.
+- Built Tableau and Power BI dashboards for customer, sales and portfolio discussions.
+- At Toyota Kirloskar Motor, compared regional sales and customer segments; identified 11% growth in Southern India and a 6% decline in Eastern India.
+- Linked regional findings to customer segments and recommended acquisition priorities for the Eastern market.
+Outcome and scope: Produced analyses and recommendations for the respective teams. The percentages describe observed trends; they are not claimed as sales changes caused by my work.
+
+Household field research & policy report
+National Human Rights Commission | May – Jun 2024
+- Conducted face-to-face structured interviews with 65 households near Bhubaneswar.
+- Recorded observations to compare reported conditions with those seen during field visits.
+- Coded responses in Excel and compared household needs.
+- Wrote a policy report for the Odisha government using survey findings and field notes.
+Outcome and scope: Brought structured interviews and field observations together in a report intended to inform policy. No downstream policy adoption is claimed.
+
+SKILLS
+Python, Pandas, NumPy, SQL, MySQL, PostgreSQL, MATLAB, C; FastAPI, REST APIs, LLM APIs, RAG, LangChain, LangGraph, pgvector, Langfuse, LangSmith; Excel, Tableau, Power BI; InSAR, LiCSAR, LiCSBAS, GIS, Agisoft, Surveyaan, HEC-RAS, AutoCAD; surveys, time-series analysis, DMA, creep, stress relaxation, LEAF, technical reporting.
+
+TESTS & TRAINING
+GMAT Focus: Total score 625.
+TOEFL iBT 7 March 2026: 4.5/6 overall; reported equivalent 90/120; CEFR B2. Reading 5.0, Listening 4.0, Speaking 4.5, Writing 4.0 (all /6).
+Business Analytics, Coding Ninjas (2023).
+Basic Marketing and Economics Essentials, IIM Bangalore (2023).
+Languages: Odia and Hindi (native), English (TOEFL B2), French (beginner).
