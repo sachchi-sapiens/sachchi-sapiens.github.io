@@ -37,8 +37,8 @@ window.AGENT = {
     },
     {
       id: 'care', q: 'What does he care about?',
-      keys: ['care', 'cares', 'idea', 'ideas', 'passion', 'like', 'love', 'hobby', 'hobbies', 'write', 'writing', 'poetry', 'read', 'reading', 'book', 'books', 'society', 'social', 'city', 'delhi', 'health', 'medicine', 'why'],
-      a: 'Building things that help people. He wants to point LLMs at <b>Delhi\'s city problems</b> like air and heat, at the slow paperwork in <b>medicine</b>, and at the small tasks that eat <b>everyday hours</b>. Off the clock he writes poetry, essays and stories, and reads novels.',
+      keys: ['care', 'cares', 'idea', 'ideas', 'passion', 'like', 'love', 'hobby', 'hobbies', 'write', 'writing', 'poetry', 'read', 'reading', 'book', 'books', 'society', 'social', 'city', 'cities', 'urban', 'daily', 'health', 'medicine', 'why'],
+      a: 'Building things that help people. He wants to point LLMs at <b>the city problems we face every day</b>, like air and heat, at the slow paperwork in <b>medicine</b>, and at the small tasks that eat <b>everyday hours</b>. Off the clock he writes poetry, essays and stories, and reads novels.',
       cite: ['ideas.md', 'notebook.md'], go: '#ideas',
       trace: [['plan', 'intent.classify("values")', 130], ['retrieve', 'search("ideas", k=3)', 260], ['verify', 'check(github)', 200], ['reason', 'reflect()', 240], ['answer', 'compose(cite=true)', 320]]
     },
