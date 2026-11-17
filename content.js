@@ -2,11 +2,18 @@
 window.AGENT = {
   intro: {
     q: 'Who is Sachchidananda?',
-    a: 'An engineer from Odisha who builds <b>AI systems</b> and thinks about the <b>business behind them</b>. Dual degree from NIT Rourkela, GATE AIR 492, GMAT Focus 625. He has shipped a medical-records agent, a scheme finder for older adults and a drone survey workflow.',
-    cite: ['about.md', 'education.md'], go: '#about',
-    trace: [['plan', 'intent.classify("profile")', 120], ['retrieve', 'search("about", k=3)', 260], ['verify', 'check(cv.pdf)', 200], ['reason', 'rank(evidence)', 160], ['answer', 'compose(cite=true)', 300]]
+    a: 'A <b>Trainee AI Consultant at Rakuten India</b> in Bengaluru who engineers ideas into AI products and thinks about the <b>business behind them</b>. From Odisha; dual degree from NIT Rourkela, GATE AIR 492, GMAT Focus 625. He has shipped a medical-records agent, a scheme finder for older adults and a drone survey workflow.',
+    cite: ['now.md', 'about.md', 'education.md'], go: '#now',
+    trace: [['plan', 'intent.classify("profile")', 120], ['retrieve', 'search("now", "about")', 260], ['verify', 'check(cv.pdf)', 200], ['reason', 'rank(evidence)', 160], ['answer', 'compose(cite=true)', 300]]
   },
   questions: [
+    {
+      id: 'now', q: 'What is he doing now?',
+      keys: ['now', 'current', 'currently', 'today', 'rakuten', 'job', 'role', 'position', 'consultant', 'consulting', 'bengaluru', 'bangalore', 'company', 'employer', 'where'],
+      a: 'He is a <b>Trainee AI Consultant at Rakuten India</b> in Bengaluru, since November 2026. The work mixes consulting and AI engineering: understand the client\'s problem, then build the <b>agents, RAG pipelines and FastAPI services</b> that turn the idea into a product, with tracing and evals in Langfuse and LangSmith.',
+      cite: ['now.md', 'experience/rakuten'], go: '#now',
+      trace: [['plan', 'intent.classify("current role")', 110], ['retrieve', 'get("status")', 180], ['verify', 'check(offer_letter)', 260], ['reason', 'summarise(role)', 170], ['answer', 'compose(cite=true)', 300]]
+    },
     {
       id: 'ai', q: 'What has he built with AI?',
       keys: ['ai', 'built', 'build', 'project', 'projects', 'shipped', 'llm', 'agent', 'rag', 'langgraph', 'work', 'made', 'portfolio', 'code', 'github'],
@@ -17,9 +24,9 @@ window.AGENT = {
     {
       id: 'lead', q: 'Can he lead and manage?',
       keys: ['lead', 'leader', 'leadership', 'manage', 'management', 'manager', 'team', 'people', 'business', 'kpmg', 'toyota', 'client', 'stakeholder', 'gmat', 'nhrc', 'experience', 'internship'],
-      a: 'At <b>KPMG</b> he turned churn data into dashboards for client meetings and found a hidden 3% order-value drop. At <b>Toyota Kirloskar</b> he segmented regional sales. At the <b>NHRC</b> he interviewed 65 households for a policy report. GMAT Focus: <b>625</b>.',
-      cite: ['work/kpmg', 'work/toyota', 'work/nhrc'], go: '#lead',
-      trace: [['plan', 'intent.classify("leadership")', 120], ['retrieve', 'search("roles", k=3)', 280], ['verify', 'check(dates)', 220], ['reason', 'rank(scope)', 180], ['answer', 'compose(cite=true)', 300]]
+      a: 'Right now he is a <b>Trainee AI Consultant</b> at Rakuten India, where consulting meets engineering. At <b>KPMG</b> he turned churn data into dashboards for client meetings and found a hidden 3% order-value drop. At <b>Toyota Kirloskar</b> he segmented regional sales. At the <b>NHRC</b> he interviewed 65 households for a policy report. GMAT Focus: <b>625</b>.',
+      cite: ['experience/rakuten', 'work/kpmg', 'work/toyota', 'work/nhrc'], go: '#lead',
+      trace: [['plan', 'intent.classify("leadership")', 120], ['retrieve', 'search("roles", k=4)', 280], ['verify', 'check(dates)', 220], ['reason', 'rank(scope)', 180], ['answer', 'compose(cite=true)', 300]]
     },
     {
       id: 'study', q: 'What did he study?',
@@ -45,10 +52,10 @@ window.AGENT = {
     {
       id: 'reach', q: 'How do I reach him?',
       keys: ['reach', 'contact', 'email', 'mail', 'hire', 'linkedin', 'talk', 'call', 'connect', 'message', 'cv', 'resume'],
-      a: 'Email <b>sachchidananda13@gmail.com</b>. He is also on <b>LinkedIn</b> and <b>GitHub</b> (sachchi-sapiens). Based in Bhubaneswar, Odisha.',
+      a: 'Email <b>sachchidananda13@gmail.com</b>. He is also on <b>LinkedIn</b> and <b>GitHub</b> (sachchi-sapiens). Based in Bengaluru, India.',
       cite: ['contact.md'], go: '#contact',
       trace: [['plan', 'intent.classify("contact")', 90], ['retrieve', 'get("contact")', 140], ['verify', 'ping(links)', 180], ['reason', 'skip()', 40], ['answer', 'compose(cite=true)', 200]]
     }
   ],
-  fallback: 'I only know what is on this page. Try one of the questions above, or ask about his projects, leadership, studies, skills, ideas or contact.'
+  fallback: 'I only know what is on this page. Try one of the questions above, or ask about his current role, projects, leadership, studies, skills, ideas or contact.'
 };
